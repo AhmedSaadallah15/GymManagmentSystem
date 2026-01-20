@@ -7,7 +7,7 @@ The system helps manage members ,trainers , memberships, sessions, bookings, att
 
 ## Features
 
-### 👤 Members
+###  Members
 - Create & manage gym members
 - Assign memberships to members
 - Prevent multiple active memberships for the same member
