@@ -11,6 +11,14 @@ The system helps manage members ,trainers , memberships, sessions, bookings, att
 - Create & manage gym members
 - Assign memberships to members
 - Prevent multiple active memberships for the same member
+The system allows assigning a membership plan to each member.
+### There are four available plans:
+ -Basic
+ -Standard
+ -Premium
+ -Annual
+Each plan has its own duration and benefits, and a member can only have one active membership at a time.
+
 
 ###  Memberships
 - Assign plans with duration
