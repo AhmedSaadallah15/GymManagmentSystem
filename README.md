@@ -3,7 +3,42 @@ Gym Management System
 A full-featured Gym Management System built with **ASP.NET Core MVC** following ** N-Tier Architecture** principles.  
 The system helps manage members ,trainers , memberships, sessions, bookings, attendance, and cancellations efficiently.
 
+## 🔧 Installation & Setup
+
+1. Clone the repository:
+```bash
+git clone https://github.com/AhmedSaadallah15/GymManagementSystem.git
+dotnet ef database update
+
+## 🔐 Default Accounts
+
+| Role        | Email                      | Password       |
+|------------|-------------------------    |-----------------|
+| SuperAdmin | AhmedSaadallah@gmail.com    | P@sswr0d        |
+| Admin      | OmarZian@gmail.com          |  P@sswr0d       |
+
 ---
+GymManagementSystem
+│
+├── GymManagementPL   (Presentation Layer)
+│   ├── Controllers
+│   ├── Views
+│   └── wwwroot
+│
+├── GymManagementBLL  (Business Logic Layer)
+│   ├── Services
+│   ├── Interfaces
+│   ├── ViewModels
+│   └── AutoMapper Profiles
+│
+├── GymManagementDAL  (Data Access Layer)
+│   ├── Entities
+│   ├── Repositories
+│   ├── UnitOfWork
+│   ├── DbContext
+│   └── Migrations
+│
+└── README.md
 
 ## Features
 
